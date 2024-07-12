@@ -1,0 +1,53 @@
+.container{
+  background-color: rgb(80, 80, 80);
+  padding: 20px;
+  color: orange;
+  position: absolute;
+}
+.container h1{
+  text-align: center;
+}
+.container .input-box{
+  margin: 10px 0;
+  display: flex;
+}
+.container .input-box input{
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  color: orangered;
+  font-size: 1.4rem;
+}
+.container .input-box button{
+  height: 40px;
+  width: 80px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+}
+
+.container .footer{
+  display: flex;
+}
+.container .footer input{
+  margin-left: 10px;
+}
+
+.container p{
+  font-size: 1.2rem;
+
+}
+.container .footer{
+  display: flex;
+  gap: 20px;
+}
+.container .footer div{
+  display: flex;
+}
+
+@media screen and (max-width:500px) {
+  .container .footer{
+    flex-direction: column;
+  }
+}
